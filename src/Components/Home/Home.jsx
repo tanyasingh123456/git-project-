@@ -3,10 +3,11 @@ import React from 'react';
 const Home = () => {
     return (
         <div>
-            <section>
+            {/* <section>
                 <h1>Welcome to NavGurukul 🌱</h1>
                 <p>Empowering students through education and coding</p>
-            </section>
+            </section> */}
+            hello worlds!
         </div>
     );
 }
