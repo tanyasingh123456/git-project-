@@ -7,6 +7,7 @@ import Council from './Components/Council/Council';
 import Blog from './Components/Blog/Blog';
 import Enroll from './Components/Enroll/Enroll';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 const App = () => {
   return (
     <>
@@ -20,6 +21,7 @@ const App = () => {
           <Route path = '/enroll' element = {<Enroll/>}/>
           <Route path = '/contact' element = {<Contact/>}/>
       </Routes>
+      <Footer />
   </BrowserRouter>
     </>
   );
